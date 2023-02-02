@@ -1,0 +1,143 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    background-color: #E4D3CC;
+    padding: 1rem;
+    border-bottom: 0.2em solid black;
+    }
+    
+    header h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 0.15rem 0.15rem grey;
+    }
+    
+    img{
+    max-width: 30%;
+    height: auto;
+    }
+    
+    .nav-i{
+    padding: 1em   2em;
+    list-style:none;
+    }
+    
+    
+    
+    #homeContactDetails{
+        background-color: #E4D3CC;
+        border: 2px solid black;
+        padding: 1em;
+        margin: 0.2em 0.2em;
+        display: inline-flex; 
+        justify-content:space-between;
+        border-radius: 1em;
+    }
+    
+    .BlankSpace{
+        padding: 20px;
+    }
+    
+    .pins{
+        max-width:2em;
+        height: 2em;
+        padding: 0.5em;
+    }
+    
+    #ppic{
+        border: 0.2em solid black;
+        border-radius: 2.5em;
+    }
+    
+    nav ul li{
+    padding: 10px 20px;
+    background-color: #E4D3CC;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0em 0.5em;
+    border-radius: 10em;
+    }
+    
+    a{
+        color: black;
+        text-decoration:none;
+    }
+    
+    .PE{
+        border: 1px solid black ;
+    }
+    
+    h4{
+        background-color: #E4D3CC;
+        padding: 10px;    
+    }
+    
+    .HomeContent{
+        padding: 5px 10px;
+    }
+    .bioContent{
+        padding: 20px;
+    }
+    
+    li{
+        list-style:none;
+        padding: 0.5em 3em 0em 0.1em;
+        font-size: smaller;
+    }
+    
+    footer{
+        background-color: #E4D3CC;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        padding: 2px;
+    }
+    
+    
+    @media screen and (max-width : 770px) {
+        #homeContactDetails{
+            width: 50%;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        }
+    
+    @media screen and (max-width : 530px) {
+        #homeContactDetails{
+            width: 60%;
+            padding: 0.5rem;
+            text-align: center;
+        } 
+        }
+    
+    @media screen and (max-width : 425px) {
+        #homeContactDetails{
+            width: 70%;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        }
+    
+    @media screen and (max-width : 364px) {
+        #homeContactDetails{
+            width: 80%;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        }
+        
+    @media screen and (max-width : 520px) {
+        nav ul li{
+            display: flexbox;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5em;
+            text-align: center;
+            font-size: smaller;
+        }
+    }
+    
